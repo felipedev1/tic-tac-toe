@@ -90,4 +90,9 @@ body, html {
   .status-win{
     background-color: rgb(25, 233, 25);
   }
+  @media(max-width: 600px){
+    .game > div{
+    flex-direction: column;
+    }
+  }
   
